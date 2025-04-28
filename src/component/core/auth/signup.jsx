@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// import signupImage from "../../assets/109abc82-fcef-469a-ba3b-1028fbe83eaa.png";
 
 const Signup = () => {
   const [userType, setUserType] = useState("Student");
@@ -141,6 +142,14 @@ const Signup = () => {
             </button>
           </div>
         </div>
+
+        {/* <div className="w-1/2 flex justify-center items-center">
+          <img
+            src={signupImage}
+            alt="Signup Visual"
+            className="w-full max-w-sm object-cover rounded-md"
+          />
+        </div> */}
       </div>
     </div>
   );

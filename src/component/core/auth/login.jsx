@@ -6,6 +6,7 @@ const Login = () => {
   return (
     <div className="flex min-h-screen items-center justify-center bg-richblack-900 p-6">
       <div className="flex w-full max-w-5xl items-center justify-between bg-richblack-800 p-8 rounded-lg">
+        {/* Left side - Form */}
         <div className="w-1/2 flex flex-col gap-6 text-white">
           <div>
             <h1 className="text-3xl font-bold mb-2">Welcome Back</h1>
@@ -50,6 +51,15 @@ const Login = () => {
             </button>
           </div>
         </div>
+
+        {/* Right side - Image */}
+        {/* <div className="w-1/2 flex justify-center items-center">
+          <img
+            src={require("../../assets/109abc82-fcef-469a-ba3b-1028fbe83eaa.png")}
+            alt="Login Visual"
+            className="w-full max-w-sm object-cover rounded-md"
+          />
+        </div> */}
       </div>
     </div>
   );
